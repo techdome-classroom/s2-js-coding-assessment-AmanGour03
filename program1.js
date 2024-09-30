@@ -12,7 +12,8 @@ var isValid = function(s) {
     for(let i=0;i<s.length;i++){
         let c =s[i];
         if(b[c]){
-            let top=stack.length>0
+            let top=stack.length>0?stack.pop():'#';
+            if(top)
         }
     }
 };
