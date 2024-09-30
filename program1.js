@@ -13,7 +13,7 @@ var isValid = function(s) {
         let c =s[i];
         if(b[c]){
             let top=stack.length>0?stack.pop():'#';
-            if(top)
+            if(top!== b[char])
         }
     }
 };
