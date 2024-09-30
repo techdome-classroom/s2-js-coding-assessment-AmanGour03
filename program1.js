@@ -9,7 +9,12 @@ var isValid = function(s) {
      '}':'{',
      ']':'[',
     };
-    for(int i=0;i<s.length;i++)
+    for(let i=0;i<s.length;i++){
+        let c =s[i];
+        if(b[c]){
+            let top=stack.length>0
+        }
+    }
 };
 
 module.exports = { isValid };
