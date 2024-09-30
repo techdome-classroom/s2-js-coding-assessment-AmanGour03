@@ -22,6 +22,11 @@ var isValid = function(s) {
     }
 };
 
+if (isValid(input)) {
+    alert("The input is valid.");
+} else {
+    alert("The input is invalid.");
+}
 module.exports = { isValid };
 
 
